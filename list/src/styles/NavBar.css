@@ -1,0 +1,12 @@
+.container-nav{
+    display: flex;
+    justify-content: space-between;
+   padding: 15px;
+    border-bottom: solid 2px lightslategray;
+}
+
+.button-nav{
+    font-weight: bold;
+    border-radius: 50%;
+    border: none;
+}

@@ -1,0 +1,21 @@
+.container-card{
+    display: flex;
+    max-width: 500%;
+    height: auto;
+    padding: 25px;
+    border: solid 1px lightslategray;
+    margin: 20px;
+    justify-content: space-between;
+}
+
+.container-email{
+    margin-top: 15px;
+}
+.button{
+    border: none;
+    border-radius: 15px;
+    background-color: palevioletred;
+    color: aliceblue;
+    padding: 10px;
+    margin-left: 5px;
+}

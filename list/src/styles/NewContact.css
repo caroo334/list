@@ -1,0 +1,40 @@
+.container-newcontact{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    flex-direction: column;
+    
+}
+
+
+.form-newcontact{
+    display: flex;
+    flex-direction: column;
+}
+.title-contact{
+    color: lightslategray
+}
+
+.input-contact{
+    margin: 20px;
+    border: none;
+    height: 2em;
+    width: 15rem;
+    border-radius: 15px;
+
+}
+
+.contact-button{
+    
+    border: none;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    color: lightslategray;
+}
+.contact-button:hover{
+    cursor: pointer;
+}
