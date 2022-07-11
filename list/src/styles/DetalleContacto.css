@@ -1,52 +1,55 @@
-.tilte-details{
+.tilte-details {
     padding: 25px;
-    
+
 }
-.container-detail{
+
+.container-detail {
     width: 100%;
     height: 100vh;
     background-color: lavender;
-    display: grid;
+    display: flex;
+    /* display: grid;
     grid-template-columns: repeat(6, 2fr);
-    grid-template-rows: repeat(6, 4fr);
+    grid-template-rows: repeat(6, 4fr); */
 }
 
 
-.container-dc{
+.container-dc {
     width: 100%;
     height: 100%;
-     display: flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;     
-    grid-column-start: 3;
-    grid-column-end: 6;
-    
+    justify-content: center;
+    /* grid-column-start: 3;
+    grid-column-end: 6; */
+
 }
-.span-detail{
+
+.span-detail {
     margin: 25px;
 }
 
-.details-content{
-    width: 100%;
+.details-content {
+    min-width: 50vw;
     height: 45vh;
     border: solid 2px lightslategray;
     display: flex;
     flex-direction: column;
-    justify-content: space-around; 
+    /* justify-content: space-around;  */
     font-weight: bold;
-    align-items: center; 
     background-color: rgb(38, 38, 70);
     border-radius: 5px;
     color: aliceblue;
-    grid-column-start: 2;
-    grid-column-end: 6;
+    /* grid-column-start: 2;
+    grid-column-end: 6; */
     justify-content: center;
     align-items: center;
-   
-    
+
+
 }
-.button-detalle-contacto{
+
+.button-detalle-contacto {
     background-color: palevioletred;
     color: aliceblue;
     border: none;
@@ -54,11 +57,12 @@
     margin-top: 10px;
     border-radius: 25px;
 }
-.button-detalle-contacto:hover{
+
+.button-detalle-contacto:hover {
     cursor: pointer;
 }
 
-.container-draw1{
+/* .container-draw1{
     background-color: rgb(29, 46, 61);
     grid-column-start: 2;
     grid-column-end: 3;
@@ -66,12 +70,12 @@
     grid-row-start: 1;
     grid-row-end: 5;
 
-}
+} */
 
-.container-draw2{
+/* .container-draw2{
     background-color: papayawhip;
     opacity: 0.4;
     grid-column-start: 1;
     grid-column-end: 4 ;
     grid-row: 2/4 ;
-}
+} */
